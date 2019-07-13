@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    border: 10px dotted white;
+    padding:35px;
+    background: white;
+    background-clip: padding-box;
+    text-align: left
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+head {
+    background-image: url(img_max.jpg), url(cover.jpg);
+    background-position: left middle bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
